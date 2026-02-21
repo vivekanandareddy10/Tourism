@@ -1,0 +1,134 @@
+.BGIMG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    display: flex;
+}
+
+.card-tourism {
+    background: rgba(255, 255, 255, 0.2);
+
+    text-align: center;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    height: 45vh;
+    /* background-color: #bff3f5; */
+    padding: 10px;
+
+}
+
+.main-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+
+.paragraph {
+    color: #f1f1f1;
+
+}
+
+.button {
+    height: 36px;
+    width: 138px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    font-family: 'Roboto';
+    background-color: orange;
+    border-radius: 25px;
+    border-width: 0px;
+}
+
+
+
+.bg-container {
+    background-image: url("https://img.freepik.com/premium-vector/tourist-meets-sunrise-mountains-hiking-adventure-tourism-travel-vertical-banner_149326-9382.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 16px;
+}
+
+.bg-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+
+}
+
+
+.bg-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 25px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.fav {
+    color: #0f0e46;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.fav-p1 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #6c6b70;
+
+}
+
+.card-image {
+    width: 150px;
+    height: 130px;
+
+}
+
+.bg-container {
+    background-image: url("https://img.freepik.com/premium-vector/tourist-meets-sunrise-mountains-hiking-adventure-tourism-travel-vertical-banner_149326-9382.jpg");
+    /* height: 100vh; */
+    background-size: cover;
+
+}
+
+.bg-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 25px;
+
+}
+
+.center-card {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 25px;
+
+}
+
+.card-heading {
+    font-family: 'Roboto';
+    color: orange;
+
+}
+
+.card-para {
+    font-family: 'Roboto';
+    color: grey;
+}
+
+.card-pading {
+    padding: 20px;
+}

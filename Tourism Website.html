@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="BGIMG d-flex flex-column justify-content-end">
+            <div class="card-tourism">
+                <h1 class="main-heading">Tourism</h1>
+                <p class="paragraph"> welcome to our website lets goo </p>
+                <button class="button" onclick="display('sectionTourismPlaces')">Get started</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTourismPlaces">
+        <div class="bg-container">
+            <h1 class="bg-heading"> Tourism Places</h1>
+            <div class="bg-card d-flex flex-row" onclick="display('sectionTajMahalDetailView')">
+                <div>
+                    <h2 class="fav">Taj Mahal</h2>
+                    <p class="fav-p1"> The Taj Mahal is one of the most beautiful monuments in the world and a symbol of eternal love.</p>
+                </div>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.lMGLtT8wX7cUlVPfO_7oEwHaFj?pid=Api&P=0&h=180" class="card-image" />
+            </div>
+            <div class="bg-card d-flex flex-row" onclick="display('sectionGoaDetailView')">
+                <div>
+                    <h2 class="fav">Goa</h2>
+                    <p class="fav-p1"> Goa is one of the most popular tourist destinations in India and a symbol of fun and relaxation.</p>
+                </div>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.0cHUryv678t1OUdgSMofOwHaE8?pid=Api&P=0&h=180" class="card-image" />
+            </div>
+            <div class="bg-card d-flex flex-row" onclick="display('sectionRajasthanDetailView')">
+                <div>
+                    <h2 class="fav">Rajasthan</h2>
+                    <p class="fav-p1"> Rajasthan is one of the most colorful destinations in India and a land of majestic palaces and forts.</p>
+                </div>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.TsjK-uWC7LUOoQXQLqVApgHaE8?pid=Api&P=0&h=180" class="card-image" />
+
+            </div>
+            <div class="bg-card d-flex flex-row" onclick="display('sectionManaliDetailView')">
+                <div>
+                    <h2 class="fav">Manali</h2>
+                    <p class="fav-p1">Manali is one of the most scenic tourist spots in Himachal Pradesh and a heaven for snow lovers.</p>
+                </div>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.qlY-OmBR4eA0EK41ud-UswHaE8?pid=Api&P=0&h=180" class="card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">Back</button>
+        </div>
+
+    </div>
+    <div id="sectionTajMahalDetailView">
+        <div class="bg-container ">
+            <h1 class="bg-heading"> Details view </h1>
+            <div class="center-card">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49HTIoCccDY?rel=0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="card-pading">
+                    <h1 class="card-heading">
+                        Taj Mahal
+                    </h1>
+                    <p class="card-para">
+                        The Taj Mahal is one of the most beautiful
+                        monuments in the world, located in Agra, India. It was built by
+                        the Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.
+                        Constructed from stunning white marble,
+                        the monument reflects different shades of color during sunrise and sunset.
+                        Built in the 17th century on the banks of the Yamuna River,
+                        the Taj Mahal is a symbol of eternal love and is recognized as a UNESCO World Heritage Site.
+                        Every year, millions of tourists from around the world visit this
+                        architectural masterpiece to admire its beauty and history.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouritePlaces')">Back</button>
+        </div>
+    </div>
+    <div id="sectionGoaDetailView">
+
+        <div class="bg-container ">
+            <h1 class="bg-heading"> Details view </h1>
+            <div class="center-card">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/626iPtnK_MA?rel=0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="card-pading">
+                    <h1 class="card-heading">
+                        Goa
+                    </h1>
+                    <p class="card-para">
+                        Goa is one of the most popular tourist destinations in India,
+                        famous for its beautiful beaches, vibrant nightlife,
+                        and rich Portuguese heritage. Located on the western coast of India,
+                        Goa offers a perfect mix of relaxation and adventure. Visitors can enjoy water sports,
+                        explore historic churches like the Basilica of Bom Jesus, and experience delicious seafood.
+                        With its golden beaches, scenic sunsets, and lively atmosphere,
+                        Goa is an ideal destination for holidays and celebrations. </p>
+
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouritePlaces')">Back</button>
+        </div>
+    </div>
+    <div id="sectionRajasthanDetailView">
+        <div class="bg-container ">
+            <h1 class="bg-heading"> Details view </h1>
+            <div class="center-card">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ToXxhVymghw?rel=0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="card-pading">
+                    <h1 class="card-heading">
+                        Rajasthan
+                    </h1>
+                    <p class="card-para">
+                        Jaipur, the capital of Rajasthan, is popularly known as the Pink City of India.
+                        The city is famous for its rich history, royal heritage, and magnificent architecture.
+                        It was founded in 1727 by Maharaja Sawai Jai Singh II.
+                        Jaipur is home to stunning landmarks like the Hawa Mahal, Amber Fort, and City Palace.
+                        The city’s buildings are painted in pink, symbolizing hospitality and warmth.
+                        Tourists can explore colorful markets filled with handicrafts, jewelry, and traditional textiles.
+                        Jaipur is also known for its vibrant festivals and cultural events.
+                        The delicious Rajasthani cuisine adds a special flavor to the travel experience.
+                        Camel rides and desert safaris make the trip even more exciting.
+                        With its royal charm and cultural beauty, Jaipur remains one of India’s top tourist destinations. </p>
+
+                    <!--    <h3>Top Tourist Spots Nearby</h3>
+             <p> 1. Ajmer <br>
+                 2. Pushkar <br>
+                 3. Ranthambore National Park <br>
+                 4. Alwar <br>
+                 5. Udaipur<br>
+                         </p> -->
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionfavouritePlaces')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionManaliDetailView">
+        <div class="bg-container ">
+            <h1 class="bg-heading"> Details view </h1>
+            <div class="center-card">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C23SZ8FDzGw?rel=0" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="card-pading">
+                    <h1 class="card-heading">
+                        Manali
+                    </h1>
+                    <p class="card-para">
+                        Manali is one of the most beautiful hill stations in Himachal Pradesh.
+                        It is surrounded by snow-covered mountains and lush green valleys.
+                        The cool climate makes it a perfect summer getaway.
+                        Manali is famous for adventure activities like skiing, paragliding, and river rafting.
+                        Solang Valley and Rohtang Pass are popular tourist attractions.
+                        The Beas River adds natural beauty to the town.
+                        Tourists also visit Hadimba Temple for its unique architecture.
+                        Manali is a favorite destination for honeymoon couples.
+                        The local markets offer handicrafts and warm woolen clothes.
+                        With its scenic beauty and peaceful atmosphere, Manali attracts visitors from all over India. </p>
+
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionTourismPlaces')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
